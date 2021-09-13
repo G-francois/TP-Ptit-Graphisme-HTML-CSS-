@@ -1,0 +1,182 @@
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{		
+	font-family: "Raleway", "Sans serif";
+}
+
+#logo
+{
+	justify-content:space-between;
+	display:flex;
+}
+
+.nav
+{
+	display: flex;
+}
+
+.liste
+{
+	display: flex;
+	width: 180px;
+}
+
+
+.liste li
+{
+	list-style-type:none;
+	margin:20%;
+	display:flex;
+}
+
+.Cont
+{
+	padding-left: 13%;
+	color: black;
+}
+
+.Acc
+{
+	color: black;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#banniere
+{
+	background:url("../img/backgroung_image.jpg") center center/ cover;
+	height:400px;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+h2
+{
+	width:100%;
+	text-align:center;
+	color:white;
+}
+
+.article, .commentaire
+{
+	text-align:center;
+}
+
+.activites
+{
+	display:flex;
+	justify-content:space-around;
+	text-align:center;
+	align-items:center;
+}
+.h3
+{
+	text-align:center;
+}
+
+#my-icon
+{
+	text-align: center;
+	opacity: 0.7;
+	font-size:xx-large;
+}
+.font
+{
+	align-items: center;
+	color: white;
+}
+
+footer
+{
+	background-color:rgb(91, 52, 158);
+	color:white;
+}
+
+#informations
+{
+	display:inline-block;
+	vertical-align:top;
+	display:flex;
+	justify-content:space-around;
+}
+footer h4
+{
+	text-align:center;
+}
+
+@media(max-width: 1024px)
+{
+
+	.liste {
+		display: flex;
+		width: 110px;
+	}
+
+	.liste li
+    {
+		margin-left: 200%;
+    }
+
+	.Acc, .Cont
+	{
+		font-size: 20pt;
+	}
+
+	a 
+	{
+		padding-bottom: 5px;
+	}
+
+	.activites
+	{
+		flex-direction: column;
+	}
+
+	#logo
+	{
+		width: 10%;
+		height: 100%;
+		font-size: 10pt;
+	}
+
+	#banniere
+	{
+		font-size: 20pt;
+	}
+
+	#informations
+	{
+		flex-direction: column;
+    	padding: 2rem;
+		font-size: 20pt;
+	}
+
+	#my-icon
+	{
+		font-size: 500%;
+		width: 100%;
+	}
+
+	footer h4
+	{
+		text-align:left;
+	}
+}
